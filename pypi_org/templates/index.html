@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<meta charset="UTF-8">
+	<title>Python Index</title>
+</head>
+<body>
+<h1>Oi</h1>
+{% for p in packages %}
+<div>
+	<span class="title">{{p.name}}</span>
+	<span class="version">{{p.version}}</span>
+</div>
+{% endfor %}
+</body>
+</html>
